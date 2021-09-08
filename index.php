@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connect = mysqli_connect("fkartbyngk.mysql.database.azure.com", "ngkroot", "ind@99999999", "fkart");
+$connect = mysqli_connect("fkartbyngk.mysql.database.azure.com", "ngkroot@fkartbyngk", "ind@99999999", "fkart");
 
 if(isset($_POST["add_to_cart"]))
 {
